@@ -1,0 +1,13 @@
+[Unit]
+Description=The CissTM Satellite server
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/Satellite
+ExecStart=/home/pi/Satellite/npm start
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
