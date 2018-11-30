@@ -1,0 +1,26 @@
+{
+  "name": "satellite",
+  "version": "0.0.1",
+  "description": "The satellite software for CissTM's CanSat software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CISSTM/Satellite.git"
+  },
+  "keywords": [
+    "CanSat",
+    "Satellite"
+  ],
+  "author": "Micha den Heijer <micha@michadenheijer.com>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/CISSTM/Satellite/issues"
+  },
+  "homepage": "https://github.com/CISSTM/Satellite#readme",
+  "dependencies": {
+    "rpio": "^1.0.11"
+  }
+}
