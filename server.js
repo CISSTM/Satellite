@@ -1,4 +1,4 @@
 var send = require('./lib/send.js');
-
+var temp = require('./lib/temp.js');
 //Send data to the groundstation
-send.toGround('This is a test');
+send.toGround('Server has started');
